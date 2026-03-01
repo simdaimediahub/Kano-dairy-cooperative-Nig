@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "name": "Government Agency (Sample)",
+      "logo": "/assets/img/client1.png"
+    },
+    {
+      "name": "Development Partner (Sample)",
+      "logo": "/assets/img/client2.png"
+    },
+    {
+      "name": "Corporate Offtaker (Sample)",
+      "logo": "/assets/img/client3.png"
+    }
+  ]
+}

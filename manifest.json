@@ -1,0 +1,20 @@
+{
+  "name": "Kano Dairy Cooperative Federation",
+  "short_name": "Kano Dairy",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0b1e3d",
+  "theme_color": "#0b1e3d",
+  "icons": [
+    {
+      "src": "/assets/img/logo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/assets/img/logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}

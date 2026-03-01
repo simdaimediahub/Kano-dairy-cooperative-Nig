@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "name": "Partner Representative",
+      "role": "Institutional Partner",
+      "quote": "KDCF’s structured approach and reliability made coordination and reporting seamless.",
+      "rating": 5
+    },
+    {
+      "name": "Cooperative Leader",
+      "role": "Member Cooperative",
+      "quote": "The federation improved our record keeping and strengthened quality checks across members.",
+      "rating": 5
+    },
+    {
+      "name": "Logistics Partner",
+      "role": "Transport & Cold-Chain",
+      "quote": "Clear SOPs and accountability improved delivery performance and trust.",
+      "rating": 4
+    }
+  ]
+}

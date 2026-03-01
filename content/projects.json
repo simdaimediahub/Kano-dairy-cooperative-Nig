@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "title": "Milk Collection & Aggregation Upgrade",
+      "category": "Dairy Operations",
+      "image": "/assets/img/project1.jpg",
+      "summary": "Improved collection workflows, record templates, and quality checkpoints for cooperative aggregation."
+    },
+    {
+      "title": "Cold-Chain Logistics Support",
+      "category": "Logistics",
+      "image": "/assets/img/project2.jpg",
+      "summary": "Route planning, handling SOPs, and traceability-focused delivery structure."
+    },
+    {
+      "title": "Partnership Engagement Program",
+      "category": "Partnerships",
+      "image": "/assets/img/project3.jpg",
+      "summary": "Structured partner onboarding and reporting for public and private sector collaboration."
+    },
+    {
+      "title": "Farmer Training & Advisory",
+      "category": "Capacity Building",
+      "image": "/assets/img/project4.jpg",
+      "summary": "Training modules and field support for quality, hygiene, and productivity improvement."
+    }
+  ]
+}

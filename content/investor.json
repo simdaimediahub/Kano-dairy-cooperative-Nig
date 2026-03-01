@@ -1,0 +1,45 @@
+{
+  "overview": "Investor-ready cooperative dairy platform focused on scalable impact, reliable operations, and value chain modernization.",
+  "roadmap": [
+    {
+      "title": "Market Expansion",
+      "text": "Expand collection points and distribution reach through partnerships (editable)."
+    },
+    {
+      "title": "Processing Enablement",
+      "text": "Support partner processing and product diversification (editable)."
+    },
+    {
+      "title": "Digital Traceability",
+      "text": "Strengthen reporting, audit readiness, and transparency (editable)."
+    },
+    {
+      "title": "Strategic Partnerships",
+      "text": "Grow public/private collaborations to scale farmer impact (editable)."
+    }
+  ],
+  "financialHighlights": [
+    {
+      "label": "Revenue Growth",
+      "value": "__% (editable)"
+    },
+    {
+      "label": "Operational Expansion",
+      "value": "__ hubs (editable)"
+    },
+    {
+      "label": "Market Penetration",
+      "value": "__% (editable)"
+    },
+    {
+      "label": "Investment Outlook",
+      "value": "Positive (editable)"
+    }
+  ],
+  "investmentFocus": [
+    "Cold-chain and logistics",
+    "Milk aggregation infrastructure",
+    "Quality assurance & compliance",
+    "Farmer training & productivity"
+  ]
+}

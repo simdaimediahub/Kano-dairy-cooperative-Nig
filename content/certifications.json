@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Compliance Statement",
+      "badgeText": "Compliance",
+      "image": "/assets/img/cert1.png",
+      "description": "Editable compliance statement and badge placeholder."
+    },
+    {
+      "title": "Safety & Quality SOPs",
+      "badgeText": "Safety",
+      "image": "/assets/img/cert2.png",
+      "description": "Upload certificates and display badges through CMS."
+    }
+  ]
+}

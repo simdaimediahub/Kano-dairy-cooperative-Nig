@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "name": "Head Office",
+      "address": "Kano, Nigeria (editable)",
+      "phone": "08033609355",
+      "email": "info@kanodairy.ng",
+      "mapEmbed": "",
+      "coverage": "Kano Metro & Surrounding LGAs"
+    },
+    {
+      "name": "Collection Hub (Sample)",
+      "address": "Dawanau Area (editable)",
+      "phone": "08000000000",
+      "email": "hub@kanodairy.ng",
+      "mapEmbed": "",
+      "coverage": "Northern Corridor"
+    }
+  ]
+}

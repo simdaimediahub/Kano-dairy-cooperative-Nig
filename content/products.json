@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "name": "Fresh Milk",
+      "unit": "1L – 20L",
+      "image": "/assets/img/product1.jpg",
+      "description": "Fresh milk supply in flexible quantities (editable)."
+    },
+    {
+      "name": "Yoghurt",
+      "unit": "1L / 550ml / 500ml / 330ml / 200ml",
+      "image": "/assets/img/product2.jpg",
+      "description": "Quality yoghurt in multiple sizes (editable)."
+    },
+    {
+      "name": "Kindirmo",
+      "unit": "1L – 20L",
+      "image": "/assets/img/product3.jpg",
+      "description": "Traditional kindirmo supply for institutions and households (editable)."
+    },
+    {
+      "name": "Manshanu",
+      "unit": "Various quantities",
+      "image": "/assets/img/product4.jpg",
+      "description": "Manshanu supply with reliable delivery scheduling (editable)."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "id": "dairy-supply",
+      "title": "Dairy Supply & Distribution",
+      "icon": "truck",
+      "excerpt": "Reliable procurement and distribution of dairy supplies and products with structured reporting.",
+      "details": "We support cooperative supply chains with procurement planning, distribution logistics, and partner reporting aligned to international standards."
+    },
+    {
+      "id": "cooperative-support",
+      "title": "Cooperative Capacity Support",
+      "icon": "people",
+      "excerpt": "Operational advisory, farmer aggregation, and record-keeping support for cooperative growth.",
+      "details": "We help cooperatives improve governance, quality control, and performance tracking with practical tools and templates."
+    },
+    {
+      "id": "logistics",
+      "title": "Transport & Cold-Chain Logistics",
+      "icon": "snow",
+      "excerpt": "Structured transport support and cold-chain readiness for milk handling and distribution.",
+      "details": "Fleet coordination, route planning, and handling protocols tailored for dairy operations and compliance."
+    },
+    {
+      "id": "investment",
+      "title": "Dairy Products Investment Advisory",
+      "icon": "graph-up-arrow",
+      "excerpt": "Investor-ready opportunities with expansion planning and risk management support.",
+      "details": "We prepare investment narratives, growth models (placeholders), and partnership structures for scalable impact."
+    },
+    {
+      "id": "animal-health",
+      "title": "Animal Health Consultations",
+      "icon": "heart-pulse",
+      "excerpt": "General dairy and animal health consultations for productivity and welfare outcomes.",
+      "details": "Guidance on husbandry, feeding basics, disease prevention practices, and referral pathways (non-emergency)."
+    }
+  ]
+}

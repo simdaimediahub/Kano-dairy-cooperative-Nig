@@ -1,0 +1,11 @@
+{
+  "pageTitle": "Tender & Partnership Proposals",
+  "intro": "Submit a request for partnership proposal. Attach relevant documents and our team will respond promptly.",
+  "capabilityStatementButtonText": "Download Capability Statement",
+  "capabilityStatementLink": "/assets/docs/capability-statement.pdf",
+  "contactEmail": "tenders@kanodairy.ng",
+  "form": {
+    "successMessage": "Thank you. Your proposal request has been submitted.",
+    "errorMessage": "Sorry, something went wrong. Please try again."
+  }
+}

@@ -1,0 +1,286 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/img/uploads"
+public_folder: "/assets/img/uploads"
+
+publish_mode: editorial_workflow
+
+collections:
+  - name: "site_settings"
+    label: "Global Site Settings"
+    files:
+      - label: "Settings"
+        name: "settings"
+        file: "content/settings.json"
+        format: "json"
+        fields:
+          - {label: "Site Name", name: "siteName", widget: "string"}
+          - {label: "Tagline", name: "tagline", widget: "string"}
+          - {label: "Location", name: "location", widget: "string"}
+          - {label: "WhatsApp Number", name: "whatsapp", widget: "string"}
+          - label: "Phone Numbers"
+            name: "phones"
+            widget: "list"
+            field: {label: "Phone", name: "phone", widget: "string"}
+          - {label: "Email", name: "email", widget: "string"}
+          - {label: "Address", name: "address", widget: "string"}
+          - label: "UI Settings"
+            name: "ui"
+            widget: "object"
+            fields:
+              - {label: "Default Theme", name: "defaultTheme", widget: "select", options: ["light","dark"], default: "light"}
+              - {label: "Enable Preloader", name: "enablePreloader", widget: "boolean", default: true}
+              - {label: "Ticker Enabled", name: "tickerEnabled", widget: "boolean", default: true}
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {label: "Meta Title", name: "metaTitle", widget: "string"}
+              - {label: "Meta Description", name: "metaDescription", widget: "text"}
+              - {label: "Site URL", name: "siteUrl", widget: "string"}
+              - {label: "Twitter", name: "twitter", widget: "string", required: false}
+              - {label: "Share Image", name: "image", widget: "image"}
+          - label: "Ticker Items"
+            name: "tickerItems"
+            widget: "list"
+            field: {label: "Text", name: "text", widget: "string"}
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Headline", name: "headline", widget: "string"}
+              - {label: "Subheadline", name: "subheadline", widget: "text"}
+              - {label: "CTA Primary Text", name: "ctaPrimaryText", widget: "string"}
+              - {label: "CTA Primary Link", name: "ctaPrimaryLink", widget: "string"}
+              - {label: "CTA Secondary Text", name: "ctaSecondaryText", widget: "string"}
+              - {label: "CTA Secondary Link", name: "ctaSecondaryLink", widget: "string"}
+              - {label: "Hero Background Image", name: "backgroundImage", widget: "image"}
+          - label: "Company Profile"
+            name: "companyProfile"
+            widget: "object"
+            fields:
+              - {label: "Registration Info", name: "registrationInfo", widget: "text"}
+              - {label: "Years of Operation", name: "yearsOfOperation", widget: "string"}
+              - label: "Operational Sectors"
+                name: "operationalSectors"
+                widget: "list"
+                field: {label: "Sector", name: "sector", widget: "string"}
+              - label: "Objectives"
+                name: "objectives"
+                widget: "list"
+                field: {label: "Objective", name: "objective", widget: "string"}
+              - label: "Compliance Standards"
+                name: "complianceStandards"
+                widget: "list"
+                field: {label: "Standard", name: "standard", widget: "string"}
+          - label: "Operational Strength & Capacity"
+            name: "capacity"
+            widget: "object"
+            fields:
+              - label: "Stats"
+                name: "stats"
+                widget: "list"
+                fields:
+                  - {label: "Label", name: "label", widget: "string"}
+                  - {label: "Value", name: "value", widget: "number"}
+                  - {label: "Suffix", name: "suffix", widget: "string", required: false}
+              - label: "Certifications (Text)"
+                name: "certifications"
+                widget: "list"
+                field: {label: "Certification", name: "cert", widget: "string"}
+          - label: "Footer"
+            name: "footer"
+            widget: "object"
+            fields:
+              - {label: "About Text", name: "about", widget: "text"}
+              - label: "Quick Links"
+                name: "quickLinks"
+                widget: "list"
+                fields:
+                  - {label: "Text", name: "text", widget: "string"}
+                  - {label: "Href", name: "href", widget: "string"}
+              - {label: "Copyright", name: "copyright", widget: "string"}
+
+  - name: "services"
+    label: "Services"
+    files:
+      - label: "Services List"
+        name: "services"
+        file: "content/services.json"
+        format: "json"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "ID", name: "id", widget: "string", required: false}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Bootstrap Icon", name: "icon", widget: "string"}
+              - {label: "Excerpt", name: "excerpt", widget: "string"}
+              - {label: "Details", name: "details", widget: "text"}
+
+  - name: "projects"
+    label: "Projects"
+    files:
+      - label: "Projects Gallery"
+        name: "projects"
+        file: "content/projects.json"
+        format: "json"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Category", name: "category", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Summary", name: "summary", widget: "text", required: false}
+
+  - name: "branches"
+    label: "Branches"
+    files:
+      - label: "Branch Locations"
+        name: "branches"
+        file: "content/branches.json"
+        format: "json"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Address", name: "address", widget: "string"}
+              - {label: "Phone", name: "phone", widget: "string"}
+              - {label: "Email", name: "email", widget: "string"}
+              - {label: "Coverage", name: "coverage", widget: "string", required: false}
+
+  - name: "testimonials"
+    label: "Testimonials"
+    files:
+      - label: "Testimonials List"
+        name: "testimonials"
+        file: "content/testimonials.json"
+        format: "json"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Role", name: "role", widget: "string"}
+              - {label: "Quote", name: "quote", widget: "text"}
+              - {label: "Rating (1-5)", name: "rating", widget: "number", default: 5}
+
+  - name: "clients"
+    label: "Corporate Clients Logos"
+    files:
+      - label: "Clients"
+        name: "clients"
+        file: "content/clients.json"
+        format: "json"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Logo", name: "logo", widget: "image"}
+
+  - name: "certifications"
+    label: "Certifications"
+    files:
+      - label: "Certificates"
+        name: "certifications"
+        file: "content/certifications.json"
+        format: "json"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Badge Text", name: "badgeText", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Description", name: "description", widget: "text"}
+
+  - name: "investor"
+    label: "Investor Data"
+    files:
+      - label: "Investor Content"
+        name: "investor"
+        file: "content/investor.json"
+        format: "json"
+        fields:
+          - {label: "Overview", name: "overview", widget: "text"}
+          - label: "Roadmap"
+            name: "roadmap"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Text", name: "text", widget: "text"}
+          - label: "Financial Highlights"
+            name: "financialHighlights"
+            widget: "list"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Value", name: "value", widget: "string"}
+          - label: "Investment Focus Areas"
+            name: "investmentFocus"
+            widget: "list"
+            field: {label: "Focus", name: "focus", widget: "string"}
+
+  - name: "tender"
+    label: "Tender Page Content"
+    files:
+      - label: "Tender Page"
+        name: "tender"
+        file: "content/tender.json"
+        format: "json"
+        fields:
+          - {label: "Page Title", name: "pageTitle", widget: "string"}
+          - {label: "Intro", name: "intro", widget: "text"}
+          - {label: "Capability Button Text", name: "capabilityStatementButtonText", widget: "string"}
+          - {label: "Capability Link", name: "capabilityStatementLink", widget: "string"}
+          - {label: "Corporate Email", name: "contactEmail", widget: "string"}
+          - label: "Form Messages"
+            name: "form"
+            widget: "object"
+            fields:
+              - {label: "Success Message", name: "successMessage", widget: "string"}
+              - {label: "Error Message", name: "errorMessage", widget: "string"}
+
+  - name: "products"
+    label: "Our Products"
+    files:
+      - label: "Products"
+        name: "products"
+        file: "content/products.json"
+        format: "json"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Unit", name: "unit", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Description", name: "description", widget: "text"}
+
+  - name: "team"
+    label: "Our Team"
+    files:
+      - label: "Team Members"
+        name: "team"
+        file: "content/team.json"
+        format: "json"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Role", name: "role", widget: "string"}
+              - {label: "Photo", name: "photo", widget: "image"}
+              - {label: "Bio", name: "bio", widget: "text"}

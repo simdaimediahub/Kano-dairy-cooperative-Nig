@@ -1,0 +1,121 @@
+{
+  "siteName": "Kano Dairy Cooperative Federation",
+  "tagline": "Empowering farmers and nourishing the nation",
+  "location": "Kano, Nigeria",
+  "whatsapp": "+2348033609355",
+  "phones": [
+    "08033609355"
+  ],
+  "email": "info@kanodairy.ng",
+  "address": "Kano, Nigeria",
+  "brandColors": {
+    "navy": "#0b1e3d",
+    "gold": "#d4af37"
+  },
+  "seo": {
+    "metaTitle": "Kano Dairy Cooperative Federation | Dairy Suppliers & Cooperative Organization in Kano",
+    "metaDescription": "Kano Dairy Cooperative Federation (KDCF) is a cooperative dairy supplier in Kano, Nigeria—supporting farmers with milk value chain services, dairy supplies, logistics, investments and animal health consultations.",
+    "siteUrl": "https://YOUR-NETLIFY-SITE.netlify.app",
+    "twitter": "@kanodairy",
+    "image": "/assets/img/logo.jpg"
+  },
+  "ui": {
+    "defaultTheme": "light",
+    "enablePreloader": true,
+    "tickerEnabled": true
+  },
+  "tickerItems": [
+    "Cooperative Organizations • Dairy Suppliers • Dairy Industry",
+    "Government contract-ready capability • Compliance-focused operations",
+    "Investment experts • Value chain growth • Farmer empowerment"
+  ],
+  "hero": {
+    "headline": "Executive Dairy Solutions for a Stronger Nigeria",
+    "subheadline": "Cooperative Organizations • Dairy Suppliers • Dairy Industry • Dairy Products Investment Experts • Animal Health Consultations",
+    "ctaPrimaryText": "Download Company Profile",
+    "ctaPrimaryLink": "/assets/docs/company-profile.pdf",
+    "ctaSecondaryText": "Request a Proposal",
+    "ctaSecondaryLink": "tender.html",
+    "backgroundImage": "/assets/img/hero.jpg"
+  },
+  "companyProfile": {
+    "registrationInfo": "Registered Cooperative Federation (details editable in CMS).",
+    "yearsOfOperation": "10+ years (editable)",
+    "operationalSectors": [
+      "Raw milk collection & supply chain",
+      "Dairy processing support",
+      "Transport & logistics for cold-chain",
+      "Dairy products distribution",
+      "Animal health consultations"
+    ],
+    "objectives": [
+      "Improve farmer income and milk quality",
+      "Strengthen dairy value chain compliance & safety",
+      "Expand partnerships and investment for sustainable growth"
+    ],
+    "complianceStandards": [
+      "Food safety & hygiene practices (editable)",
+      "Regulatory compliance (editable)",
+      "Quality assurance procedures (editable)"
+    ]
+  },
+  "capacity": {
+    "stats": [
+      {
+        "label": "Fleet Size",
+        "value": 18,
+        "suffix": "+"
+      },
+      {
+        "label": "Projects Delivered",
+        "value": 120,
+        "suffix": "+"
+      },
+      {
+        "label": "Partnerships",
+        "value": 45,
+        "suffix": "+"
+      },
+      {
+        "label": "Coverage (States)",
+        "value": 7,
+        "suffix": "+"
+      }
+    ],
+    "certifications": [
+      "Quality & safety compliance framework (editable)",
+      "Documented SOPs and reporting (editable)",
+      "Traceability & audit readiness (editable)"
+    ]
+  },
+  "footer": {
+    "about": "Kano Dairy Cooperative Federation supports farmers and partners across the dairy value chain—supplying quality dairy inputs and delivering reliable services for growth.",
+    "quickLinks": [
+      {
+        "text": "About",
+        "href": "about.html"
+      },
+      {
+        "text": "Services",
+        "href": "services.html"
+      },
+      {
+        "text": "Projects",
+        "href": "projects.html"
+      },
+      {
+        "text": "Investor",
+        "href": "investor.html"
+      },
+      {
+        "text": "Tender & Proposals",
+        "href": "tender.html"
+      },
+      {
+        "text": "Contact",
+        "href": "contact.html"
+      }
+    ],
+    "copyright": "© {year} Kano Dairy Cooperative Federation. All rights reserved."
+  }
+}

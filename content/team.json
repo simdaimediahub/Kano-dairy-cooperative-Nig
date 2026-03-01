@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "name": "Executive Director (Editable)",
+      "role": "Leadership",
+      "photo": "/assets/img/team1.jpg",
+      "bio": "Leadership profile text editable via CMS."
+    },
+    {
+      "name": "Operations Lead (Editable)",
+      "role": "Operations",
+      "photo": "/assets/img/team2.jpg",
+      "bio": "Operations profile text editable via CMS."
+    },
+    {
+      "name": "Field Coordinator (Editable)",
+      "role": "Field & Quality",
+      "photo": "/assets/img/team3.jpg",
+      "bio": "Field profile text editable via CMS."
+    }
+  ]
+}
